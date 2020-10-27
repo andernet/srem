@@ -1,0 +1,4 @@
+Debugger listening on ws://127.0.0.1:6011/74641ce5-5a90-4b93-8331-77e49c2eda9b
+For help, see: https://nodejs.org/en/docs/inspector
+start small-ci on 4229
+[Error - 13:23:06] Notification handler 'workspace/didChangeConfiguration' failed with message: ENOENT: no such file or directory, open '/var/www/srem.local/system/core/Common.php'

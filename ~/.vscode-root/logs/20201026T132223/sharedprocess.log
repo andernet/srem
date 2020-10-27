@@ -1,0 +1,3 @@
+[2020-10-26 13:22:28.168] [sharedprocess] [info] main {"machineId":"0a36fe968810103e537afe83e957c72d1c3a327ecc26326a1222b483d12485df","windowId":2}
+[2020-10-26 13:22:28.311] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/var/www/srem.local/~/.vscode-root/User/snippets'
+[2020-10-26 13:23:08.186] [sharedprocess] [info] Starting to clean up unused language packs.

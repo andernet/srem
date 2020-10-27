@@ -1,0 +1,607 @@
+CRITICAL - 2020-10-26 11:34:09 --> Invalid file: users/edit_user.php
+#0 /var/www/srem.local/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/edit_user...')
+#1 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/edit_user', Array, true)
+#2 /var/www/srem.local/app/Controllers/UserCrud.php(35): view('users/edit_user', Array)
+#3 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('1')
+#4 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-26 14:04:07 --> Arquivo inválido: users/edit_user.php
+#0 /var/www/srem.local/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/edit_user...')
+#1 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/edit_user', Array, true)
+#2 /var/www/srem.local/app/Controllers/UserCrud.php(35): view('users/edit_user', Array)
+#3 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#4 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-26 14:04:24 --> Arquivo inválido: users/edit_user.php
+#0 /var/www/srem.local/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/edit_user...')
+#1 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/edit_user', Array, true)
+#2 /var/www/srem.local/app/Controllers/UserCrud.php(35): view('users/edit_user', Array)
+#3 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#4 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-26 14:12:21 --> Undefined variable: data
+#0 /var/www/srem.local/app/Views/users/edit_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 25, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/edit_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(39): view('users/edit_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 14:40:25 --> Undefined property: App\Controllers\UserCrud::$load
+#0 /var/www/srem.local/app/Controllers/UserCrud.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/srem.l...', 12, Array)
+#1 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#2 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-26 14:42:38 --> Undefined property: CodeIgniter\View\View::$load
+#0 /var/www/srem.local/app/Views/users/user_view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/srem.l...', 3, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(13): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 14:44:01 --> Call to undefined method CodeIgniter\Controller::Controller()
+#0 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#1 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-26 14:44:02 --> Call to undefined method CodeIgniter\Controller::Controller()
+#0 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#1 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-26 14:44:02 --> Call to undefined method CodeIgniter\Controller::Controller()
+#0 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#1 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-26 14:44:04 --> Call to undefined method CodeIgniter\Controller::Controller()
+#0 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#1 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-26 14:44:59 --> Undefined property: CodeIgniter\View\View::$load
+#0 /var/www/srem.local/app/Views/users/user_view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/srem.l...', 3, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(21): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 14:46:02 --> Undefined property: CodeIgniter\View\View::$load
+#0 /var/www/srem.local/app/Views/users/user_view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/srem.l...', 3, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(19): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 14:49:10 --> include_once(template/header.php): failed to open stream: No such file or directory
+#0 /var/www/srem.local/app/Views/users/user_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(te...', '/var/www/srem.l...', 5, Array)
+#1 /var/www/srem.local/app/Views/users/user_view.php(5): include_once()
+#2 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#3 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#4 /var/www/srem.local/app/Controllers/UserCrud.php(19): view('users/user_view', Array)
+#5 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#6 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-26 15:24:16 --> CodeIgniter\View\View::main(): Failed opening required '/var/www/srem.local/app/Views/userstemplate/header.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-26 15:25:49 --> Undefined property: CodeIgniter\View\View::$load
+#0 /var/www/srem.local/app/Views/users/user_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/srem.l...', 7, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(19): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 15:26:39 --> Undefined property: CodeIgniter\View\View::$load
+#0 /var/www/srem.local/app/Views/users/user_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/srem.l...', 7, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(19): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 15:31:11 --> Undefined property: App\Controllers\UserCrud::$load
+#0 /var/www/srem.local/app/Controllers/UserCrud.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/srem.l...', 18, Array)
+#1 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->index()
+#2 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-26 16:12:44 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:12:48 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:12:59 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:13:20 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:13:30 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:13:54 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:13:56 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:14:40 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:14:41 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:14:50 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:15:12 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:15:25 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:15:28 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:15:38 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:15:52 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:37 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:38 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:16:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:17:40 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:17:44 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(51): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:19:22 --> Cannot call constructor
+#0 /var/www/srem.local/system/CodeIgniter.php(890): App\Controllers\UserCrud->__construct()
+#1 /var/www/srem.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-26 16:19:34 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(52): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('9')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:20:36 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(53): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('10')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:21:39 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(53): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('10')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:21:40 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(53): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('10')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:22:05 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(53): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('10')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:22:07 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/users/user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/user_view', Array, true)
+#3 /var/www/srem.local/app/Controllers/UserCrud.php(53): view('users/user_view', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\UserCrud->singleUser('10')
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:36:28 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/srem.local/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/srem.l...')
+#1 /var/www/srem.local/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/srem.local/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/srem.local/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:36:32 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/srem.local/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/srem.l...')
+#1 /var/www/srem.local/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/srem.local/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/srem.local/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:39:21 --> Undefined variable: users
+#0 /var/www/srem.local/app/Views/reserva/reserva_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/srem.l...', 30, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('reserva/reserva...', Array, true)
+#3 /var/www/srem.local/app/Controllers/Reserva.php(18): view('reserva/reserva...', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\Reserva->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:41:53 --> Undefined index: equipamento
+#0 /var/www/srem.local/app/Views/reserva/reserva_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/srem.l...', 24, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('reserva/reserva...', Array, true)
+#3 /var/www/srem.local/app/Controllers/Reserva.php(18): view('reserva/reserva...', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\Reserva->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:43:14 --> Table 'srem.reserva' doesn't exist
+#0 /var/www/srem.local/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/srem.local/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/srem.local/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/srem.local/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/srem.local/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/srem.local/app/Controllers/Reserva.php(16): CodeIgniter\Model->findAll()
+#6 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\Reserva->index()
+#7 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#8 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-26 16:43:37 --> Undefined index: name
+#0 /var/www/srem.local/app/Views/reserva/reserva_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/srem.l...', 25, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('reserva/reserva...', Array, true)
+#3 /var/www/srem.local/app/Controllers/Reserva.php(19): view('reserva/reserva...', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\Reserva->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-26 16:44:31 --> Undefined index: name
+#0 /var/www/srem.local/app/Views/reserva/reserva_view.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/srem.l...', 26, Array)
+#1 /var/www/srem.local/system/View/View.php(246): include('/var/www/srem.l...')
+#2 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('reserva/reserva...', Array, true)
+#3 /var/www/srem.local/app/Controllers/Reserva.php(19): view('reserva/reserva...', Array)
+#4 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\Reserva->index()
+#5 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#6 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

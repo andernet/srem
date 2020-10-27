@@ -1,0 +1,18 @@
+CRITICAL - 2020-10-27 16:38:54 --> Arquivo inválido: users/edit_reserva.php
+#0 /var/www/srem.local/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/edit_rese...')
+#1 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/edit_rese...', Array, true)
+#2 /var/www/srem.local/app/Controllers/Reserva.php(64): view('users/edit_rese...', Array)
+#3 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\Reserva->singleReserva('1')
+#4 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#5 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-27 16:40:11 --> Arquivo inválido: users/edit_reserva.php
+#0 /var/www/srem.local/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/edit_rese...')
+#1 /var/www/srem.local/system/Common.php(1119): CodeIgniter\View\View->render('users/edit_rese...', Array, true)
+#2 /var/www/srem.local/app/Controllers/Reserva.php(67): view('users/edit_rese...', Array)
+#3 /var/www/srem.local/system/CodeIgniter.php(918): App\Controllers\Reserva->singleReserva('1')
+#4 /var/www/srem.local/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#5 /var/www/srem.local/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/srem.local/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
