@@ -9,47 +9,40 @@ class Reserva extends Controller
 {
     function __construct()
      {
-
     //parent::__construct();
     //$this->load->database();
     }
-    // show users list
+
     public function index(){
         $reservaModel = new ReservaModel();
         $data['reservas'] = $reservaModel->orderBy('id', 'DESC')->findAll();
-        //dd($data);
+
         echo view('template/header.php');
         return view('reserva/reserva_view', $data);
         echo view('template/footer.php');
     }
 
-        // add  form
-        public function create(){
-            $userModel = new UserModel();
-            $data['users'] = $userModel->orderBy('id', 'ASC')->findAll();
-            //dd($data);
-            echo view('template/header.php');
-            return view('reserva/add_reserva', $data);
-            echo view('template/footer.php');
-        }
+
+    public function create(){
+        $userModel = new UserModel();
+        $data['users'] = $userModel->orderBy('id', 'ASC')->findAll();
+        echo view('template/header.php');
+        echo view('reserva/add_reserva', $data);
+        echo view('template/footer.php');
+    }
      
-        // insert data
-        public function store() {
-            $ReservaModel = new ReservaModel();
-            $data = [
+    public function store() {
+        $ReservaModel = new ReservaModel();
+        $data = [
                 'equipamento' => $this->request->getVar('equipamento'),
                 'professor'  => $this->request->getVar('proferssor'),
                 'data_retirada'  => $this->request->getVar('data_retirada'),
                 'data_devolucao'  => $this->request->getVar('data_devolucao'),
-            ];
-            //dd($data);
-            $ReservaModel->insert($data);
-            
-            
-            echo view('template/header.php');
-            return $this->response->redirect(site_url('/'));
-            echo view('template/footer.php');
-            
+        ];
+        $ReservaModel->insert($data);
+        echo view('template/header.php');
+        return $this->response->redirect(site_url('/'));
+        echo view('template/footer.php');
         }
     
         // show single user

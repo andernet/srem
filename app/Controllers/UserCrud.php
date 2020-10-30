@@ -9,7 +9,7 @@ class UserCrud extends Controller
      {
     //parent::__construct();
     }
-    // show users list
+
     public function index(){
         $userModel = new UserModel();
         $data['users'] = $userModel->orderBy('id', 'DESC')->findAll();
@@ -18,7 +18,6 @@ class UserCrud extends Controller
         echo view('template/footer.php');
     }
 
-    // add user form
     public function create(){
         echo view('template/header.php');
         return view('users/add_user');
@@ -26,7 +25,6 @@ class UserCrud extends Controller
         
     }
  
-    // insert data
     public function store() {
         $userModel = new UserModel();
         $data = [
@@ -40,21 +38,13 @@ class UserCrud extends Controller
         
     }
 
-    // show single user
     public function singleUser($id = null){
-        
         $userModel = new UserModel();
-        //dd($data['user_obj'] = $userModel->where('id', $id)->first());
         $data['user_obj'] = $userModel->where('id', $id)->first();
-        //dd($data);
-        
         echo view('template/header.php');
         return view('users/edit_view', $data);
         echo view('template/footer.php');
-        
     }
-
-    // update user data
     public function update(){
         $userModel = new UserModel();
         $id = $this->request->getVar('id');
@@ -63,18 +53,13 @@ class UserCrud extends Controller
             'email'  => $this->request->getVar('email'),
         ];
         $userModel->update($id, $data);
-
         echo view('template/header.php');
         return $this->response->redirect(site_url('/users-list'));
         echo view('template/footer.php');
-        
     }
- 
-    // delete user
     public function delete($id = null){
         $userModel = new UserModel();
         $data['user'] = $userModel->where('id', $id)->delete($id);
-
         echo view('template/header.php');
         return $this->response->redirect(site_url('/users-list'));
         echo view('template/footer.php');

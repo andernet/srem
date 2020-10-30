@@ -1,18 +1,24 @@
-<VirtualHost *:80>
-    ServerAdmin admin@example.com
-    ServerName scc.local
-    ServerAlias www.scc.local
-    DocumentRoot /var/www/srem.local/public
- 
-    <Directory /var/www/srem.local/>
-            Options Indexes FollowSymLinks MultiViews
-            AllowOverride All
-            Order allow,deny
-            allow from all
-            Require all granted
-    </Directory>
- 
-    LogLevel debug
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
+INSERT INTO `users` (`id`, `name`, `email`) VALUES
+(1002, 'Murphy', 'dmurphy@classicmodelcars.com'),
+(1056, 'Patterson', 'mpatterso@classicmodelcars.com'),
+(1076, 'Firrelli',  'jfirrelli@classicmodelcars.com'),
+(1088, 'Patterson',  'wpatterson@classicmodelcars.com'),
+(1102, 'Bondur', 'gbondur@classicmodelcars.com'),
+(1143, 'Bow',  'abow@classicmodelcars.com'),
+(1165, 'Jennings',  'ljennings@classicmodelcars.com'),
+(1166, 'Thompson',  'lthompson@classicmodelcars.com'),
+(1188, 'Firrelli',  'jfirrelli@classicmodelcars.com'),
+(1216, 'Patterson',  'spatterson@classicmodelcars.com'),
+(1286, 'Tseng',  'ftseng@classicmodelcars.com'),
+(1323, 'Vanauf',  'gvanauf@classicmodelcars.com'),
+(1337, 'Bondur',  'lbondur@classicmodelcars.com'),
+(1370, 'Hernandez',  'ghernande@classicmodelcars.com'),
+(1401, 'Castillo',  'pcastillo@classicmodelcars.com'),
+(1501, 'Bott',  'lbott@classicmodelcars.com'),
+(1504, 'Jones',  'bjones@classicmodelcars.com'),
+(1611, 'Fixter',  'afixter@classicmodelcars.com'),
+(1612, 'Marsh',  'pmarsh@classicmodelcars.com'),
+(1619, 'King',  'tking@classicmodelcars.com'),
+(1621, 'Nishi',  'mnishi@classicmodelcars.com'),
+(1625, 'Kato',  'ykato@classicmodelcars.com'),
+(1702, 'Gerard',  'mgerard@classicmodelcars.com');

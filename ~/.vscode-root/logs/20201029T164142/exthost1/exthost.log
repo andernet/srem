@@ -1,0 +1,76 @@
+[2020-10-29 16:41:54.149] [exthost] [info] extension host started
+[2020-10-29 16:41:54.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-10-29 16:41:54.175] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-10-29 16:41:54.256] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2020-10-29 16:41:54.256] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2020-10-29 16:41:54.326] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2020-10-29 16:41:54.326] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/markdown-language-features/dist/extension
+[2020-10-29 16:41:54.514] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugDynamicConfigurations"}
+[2020-10-29 16:41:54.514] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-10-29 16:41:55.034] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-10-29 16:41:55.034] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-10-29 16:41:55.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-10-29 16:41:55.072] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-10-29 16:41:55.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-10-29 16:41:55.217] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-10-29 16:41:55.319] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-10-29 16:41:55.319] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-10-29 16:41:55.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-10-29 16:41:55.365] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-10-29 16:41:55.671] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-10-29 16:41:55.671] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-10-29 16:41:55.796] [exthost] [info] eager extensions activated
+[2020-10-29 16:41:55.824] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2020-10-29 16:41:55.824] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-10-29 16:42:03.889] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2020-10-29 16:42:03.889] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2020-10-29 16:42:03.996] [exthost] [info] ExtensionService#_doActivateExtension small.php-ci {"startup":false,"extensionId":{"value":"small.php-ci","_lower":"small.php-ci"},"activationEvent":"onLanguage:php"}
+[2020-10-29 16:42:03.996] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/small.php-ci-0.3.9/out/src/extension
+[2020-10-29 17:13:36.791] [exthost] [error] [small.php-ci] provider FAILED
+[2020-10-29 17:13:36.793] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at asPosition (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:53:16)
+	at asRange (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:59:31)
+	at asSymbolInformation (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:347:85)
+	at /root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/client.js:986:62
+[2020-10-29 17:13:43.792] [exthost] [error] [small.php-ci] provider FAILED
+[2020-10-29 17:13:43.792] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at asPosition (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:53:16)
+	at asRange (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:59:31)
+	at asSymbolInformation (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:347:85)
+	at /root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/client.js:986:62
+[2020-10-29 17:13:45.508] [exthost] [error] [small.php-ci] provider FAILED
+[2020-10-29 17:13:45.508] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at asPosition (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:53:16)
+	at asRange (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:59:31)
+	at asSymbolInformation (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:347:85)
+	at /root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/client.js:986:62
+[2020-10-29 17:13:47.580] [exthost] [error] [small.php-ci] provider FAILED
+[2020-10-29 17:13:47.580] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at asPosition (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:53:16)
+	at asRange (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:59:31)
+	at asSymbolInformation (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:347:85)
+	at /root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/small.php-ci-0.3.9/node_modules/vscode-languageclient/lib/client.js:986:62
